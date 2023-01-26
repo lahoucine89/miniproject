@@ -1,0 +1,484 @@
+@font-face{
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+	src:url("../fonts/Lobster.otf");
+}
+
+
+@font-face{
+  font-family: 'Dosis-Regular';
+  font-style: normal;
+	src:url("../fonts/Dosis-Regular.otf");
+}
+@font-face{
+  font-family: 'Bevan';
+  font-style: normal;
+	src:url("../fonts/Bevan.ttf");
+}
+body { padding-top: 50px }
+.navbar-brand{
+	padding: 0px 0px;
+}
+#My-nav ul li a:hover{
+	color: #e74c3c
+}
+.navbar{
+	margin-bottom: 0px
+}
+.logo{
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.register{
+	margin-top: -8px;
+	margin-bottom: -8px;
+	background-color: #e74c3c;
+	color: #fff;
+	border-color: #e74c3c;
+}
+.register:hover,.register:focus{
+	background-color: #c0392b;
+	color: #fff;
+	border-color: #c0392b;
+}
+.Header .centering-vh{
+	margin-top: 25vh;
+}
+@media(max-width: 767px){
+.Header .centering-vh{
+	margin-top: 0px;
+	}
+}
+
+.Header{
+	background: url('../img/header.jpg') no-repeat center;
+	-webkit-background-size : cover;
+	-moz-background-size : cover;
+	-o-background-size : cover;
+	background-size : cover;
+	height: 100vh;
+	position: relative;
+	color: #fff;
+}
+.Header .overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+
+
+}
+
+@media(max-width: 767px){
+	.event-logo{
+		width: 50%;
+		height: 50%;
+	}
+}
+
+.Header-text{
+	font-family: "Lobster";
+	font-size: 50px;
+}
+
+@media(max-width: 767px){
+	.Header-text{
+	font-size: 25px;
+}
+}
+
+
+.Header-text2{
+	font-family: "Lobster";
+	font-size: 14px;
+	margin-left: 269px;
+	margin-bottom: -5px;
+
+}
+
+@media(max-width: 767px){.Header-text2{
+
+	font-size: 10px;
+	margin: 0px;
+
+}}
+.year{
+	color: #e74c3c
+}
+.btn-more ,.btn-register{
+	background-color: #e74c3c;
+	color: #fff;
+	border-color: #e74c3c;
+	margin-right: 15px;
+	width: 200px;
+	margin-top: 10px;
+}
+
+@media(max-width: 767px){
+.btn-more ,.btn-register{
+	width: 90%;
+
+	}
+
+}
+
+.btn-more:hover ,.btn-register:hover{
+	background-color: #c0392b;
+	color: #fff;
+	border-color: #c0392b;
+}
+#Countdown-timer{
+	font-family: "Lobster";
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+
+}
+.box1 .container .row .feature h2{
+	font-family: Dosis-Regular;
+
+}
+
+.box1 .container{
+	padding-top: 25px
+}
+.box1 .container .row .feature p{
+	font-family: Dosis-Regular;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 1.5;
+	color: #606060;
+
+}
+.event-company-text{
+	font-family: Bevan;
+	font-size: 50px;
+	color: #4285f4;
+}
+.event-company-text span{
+	color: #606060;
+}
+.line1, .line2{
+		margin-bottom: 50px
+}
+.box1 .container .line2 h3{
+	font-family: Dosis-Regular;
+	font-weight: bold;
+	font-size: 25px;
+	color: #606060;
+	}
+.box1 .container .line2 span{
+	font-family: Dosis-Regular;
+	font-weight: bold;
+	font-size: 25px;
+	color: #000;
+}
+.mylist{
+	margin-top: 15px;
+	font-family: dosis-regular;
+	color: #000;
+
+}
+.mylist .list-group p{
+	padding-top: 9px;
+margin-left: 25px;
+color: #606078;
+}
+.company-logo{
+	width: 60%;
+
+}
+
+@media(max-width: 767px){
+
+	.line1, .line2{
+		padding-left: 5px
+	}
+}
+.guest h2{
+	font-family: Dosis-Regular;
+	font-size: 40px;
+	color: #333;
+}
+
+.guest-box{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+.guest-box img{
+	border: 3px solid rgb(3, 3, 3, .5);
+	margin-bottom: 10px;
+}
+.guest-box h3{
+	margin-top: 5px;
+	margin-bottom: 0px;
+	font-size: 30px;
+	font-family: Lobster;
+	color: #4285f4
+}
+.guest-box p{
+font-family: Dosis-Regular;
+font-weight: bold;
+font-size: 18px;
+line-height: 1.5;
+color: #606060;
+
+}
+.social{
+	cursor: pointer;
+}
+.social i{
+	color: #606060;
+	font-size: 14px;
+	margin-left: 5px;
+	-webkit-transaction : all 3s ease-in-out;
+
+}
+.social .fa-facebook:hover
+{
+	color: #3b5998;
+}
+.social .fa-youtube:hover
+{
+	color: #ff0000;
+}
+.social .fa-twitter:hover
+{
+	color: #1da1f2;
+}
+
+.guest p{
+	font-family: Dosis-Regular;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #606060;
+	text-align: center;
+}
+@media(max-width:767px){
+	.guest p{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+.Our-partner h2{
+	font-family: Dosis-Regular;
+	font-size: 40px;
+	color: #333;
+
+}
+.Our-partner p{
+	font-family: Dosis-Regular;
+	font-size: 18px;
+	color: #606060;
+	margin-top: 10px;
+}
+@media(max-width: 767px){
+	.Our-partner p{
+		padding: 10px;
+	}
+}
+.partners-logo{
+
+	font-size: 60px;
+	color: #606060;
+	text-align: center;
+	opacity: 0.8
+}
+.partners-logo i{
+	margin-right: 35px;
+
+}
+@media(max-width:767px){
+	.partners-logo{
+	margin-top: 10px;
+	font-size: 30px;
+	text-align: center;
+}
+}
+
+.Our-partner .partners-logo .fa-cc-visa:hover{
+	color: #1a1f71;
+}
+.partners-logo .fa-cc-mastercard:hover{
+	color: #ff9900;
+}
+.partners-logo .fa-steam-square:hover{
+	color: #00adee;
+}
+.partners-logo .fa-paypal:hover{
+	color: #003087;
+}
+.partners-logo .fa-amazon:hover{
+	color: #ff9900;
+}
+.partners-logo .fa-reddit-alien:hover{
+	color: #ff4500;
+}
+.partners-logo .fa-stack-overflow:hover{
+	color: #f48024;
+}
+.partners-logo .fa-github:hover{
+	color: #4078c0;
+}
+.contact h2{
+	font-family: Dosis-Regular;
+	font-size: 40px;
+	color: #333;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.contact h2 span{
+	color: #c0392b
+}
+.box-contact{
+	margin-top: 20px;
+}
+.box-contact form{
+	width: 100%;
+	height: 400px;
+	background-color: #fff;
+	border: 1px solid rgba(74,76,78,0.5);
+	border-radius: 5px;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.box-contact input{
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-family: Dosis-Regular;
+
+
+}
+
+.box-contact textarea{
+	height: 200px;
+	width: 100%;
+	margin-bottom:5px;
+
+}
+.box-contact input[type="submit"]{
+	background-color: #e74c3c;
+	color: #fff;
+	border: none;
+	height: 55px;
+	font-family: Dosis-Regular;
+
+}
+.box-contact input[type="submit"]:hover{
+	background-color: #cb1c0a;
+}
+
+#g-map{
+	width: 100%;
+	height: 400px;
+	background-color: #bdc3c7;
+}
+@media(max-width: 767px){
+	#g-map{
+margin-top: 20px
+}
+}
+.contact h3{
+	font-family: Dosis-Regular;
+	font-size: 30px;
+	color: #333;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.contact p{
+	font-family: Dosis-Regular;
+	font-size: 15px;
+	color: #606060;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.adresse{
+	width: 100%;
+	height: 400px;
+	text-align: center;
+}
+.adresse table{
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-bottom: 10px;
+}
+
+.adresse .r1{
+
+	width: 30%;
+	font-size: 35px;
+	text-align: center;
+	color: #e74c3c;
+
+}
+.adresse .r2{
+	width: 70%;
+	text-align: center;
+
+}
+.adresse .r2 p{
+	font-size: 10px
+	}
+
+footer{
+		width: 100%;
+		height: 100px;
+		background-color: rgba(17,24,31,0.9);
+		color: #fff;
+		text-decoration: none;
+		text-align: center;
+		padding-top: 33px;
+
+	}
+footer p{
+	font-family: Dosis-Regular;
+	font-size: 20px;
+}
+@media(max-width: 767px){
+	footer p{
+		font-size: 10px
+	}
+}
+footer p a{
+	text-decoration: none;
+	color:#e74c3c;
+}
+footer .fo-social i{
+	color: #fff;
+	font-size: 25px;
+	margin-right: 15px;
+}
+
+.fo-social .fa-facebook:hover
+{
+	color: #3b5998;
+}
+.fo-social .fa-linkedin-square:hover
+{
+	color: #0077b5;
+}
+.fo-social .fa-youtube:hover
+{
+	color: #ff0000;
+}
+.fo-social .fa-google-plus:hover
+{
+	color: #dd4b39;
+}
+/* center text in mobile*/
+@media(max-width: 767px){
+	.text-center-xs{
+		text-align: center
+	}
+}
